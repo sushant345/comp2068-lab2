@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    First Number: <input type="text" id="x" maxlength="7" value="0.0">
+    <br />
+    <br />
+
+    <select id="opr">
+        <option value="add">addition</option>
+        <option value="sub">subtraction</option>
+        <option value="multi">multiplication</option>
+        <option value="div">division</option>
+    </select>
+    <br />
+    <br />
+
+    Second Number: <input type="text" id="y" maxlength="7" value="0.0"><br />
+    <br />
+
+
+    <input type="Button" value="=" onclick="calc();"><br />
+
+    Answer: <input type="text" id="result">
+
+
+
+</body>
+</html>
